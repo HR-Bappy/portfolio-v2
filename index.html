@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./asset/images/favicon1.ico">
+    <title>Hr Bappy</title>
+
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link rel="stylesheet" href="./asset/css/color-1.css" />
+    <!-- <link rel="stylesheet" href="./asset/css/libs/all.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="./asset/css/cursor.css"
+  />
+
+    <link rel="stylesheet" href="./asset/css/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="./asset/css/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="./asset/css/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="./asset/css/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="./asset/css/color-5.css" class="alternate-style" title="color-5" disabled>
+
+    <link rel="stylesheet" href="./asset/css/style-switcher.css">
+  </head>
+  <body>
+    <!-- ==== Main Container Start ==== -->
+    <div class="main-container">
+      <!-- aside  -->
+      <div class="aside">
+        <div class="logo">
+          <a href="./index.html"><span>B</span>appy</a>
+        </div>
+        <div class="nav-toggler">
+          <span id="nav-icon" class="nav-icon-menu"></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#home" id="home-menu" onclick = "navOnClick('home-menu')" class="nav-item"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#about" id="about-menu" onclick = "navOnClick('about-menu')" class="nav-item"><i class="fa fa-user"></i>About</a>
+          </li>
+          <li>
+            <a href="#services" id="services-menu" onclick = "navOnClick('services-menu')" class="nav-item"><i class="fa fa-list"></i>Services</a>
+          </li>
+          <li>
+            <a href="#portfolio" id="portfolio-menu" onclick = "navOnClick('portfolio-menu')" class="nav-item"><i class="fa fa-briefcase"></i>Portfolio</a>
+          </li>
+          <li>
+            <a href="#gallery" id="gallery-menu" onclick = "navOnClick('gallery-menu')" class="nav-item"><i class="fa fa-images"></i>Gallery</a>
+          </li>
+          <li>
+            <a href="#contact" id="contact-menu" onclick = "navOnClick('contact-menu')" class="nav-item"><i class="fa fa-comments"></i>Contact</a>
+          </li>
+        </ul>
+        <div class="nav-close-sec" style="overflow: hidden;"></div>
+      </div>
+      
+      <!-- aside  -->
+      <!-- ==== Main Content Start ==== -->
+      <div class="main-content">
+        <!-- ==== Home Section Start ==== -->
+        <div class="section home" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, my name is <span class="name">Habibur Rahman</span>
+                </h3>
+                <h3 class="my-profession">
+                  I'm a <span class="type-writer" data-text="Frontend Designer., Web Developer., ReactJs Developer."></span>
+                </h3>
+                <p>
+                  I'm a web developer with extensive experience for over 2 years
+                  My expertise is to create and web site design, graphic design,
+                  and many more...
+                </p>
+                <a href="#contact" class="btn-border">Hire Me</a>
+              </div>
+              <div class="home-img padd-15">
+                <img src="./asset/images/hero-1.jpeg" alt="hero img" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ==== Home Section End ==== -->
+        <!-- ==== About Section Start ==== -->
+        <div class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <div id="about-me-title"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+
+                  <div class="about-text padd-15">
+                    <div class="section-sub-header">
+                      <span class="html-code">&lt;h3&gt;</span>
+                      <h3 class="v-line-h">I'm Habibur Rahman and <span>Web Developer</span></h3>
+                      <span class="html-code">&lt;/h3&gt;</span>
+                    </div>
+                    <div>
+                      <span class="html-code">&lt;p&gt;</span>
+                      <p class="v-line-p">
+                        Hello! My name is Bappy and I enjoy creating things that live on the internet. My interest in web development started back in 2020 when one of my friend showed something like, he has written his name of a top programmer's profile. I just saw and shocked, I thought a lot about HTML & CSS!<br/><br/>
+Fast-forward to today, and I’ve had the privilege of working at an advertising agency and a start-up company. My main focus these days was building accessible, inclusive products and digital experiences at HalcyonBD, ShafaCare, WebX Global Ltd., and SWAP.
+                      </p>
+                      <span class="html-code">&lt;/p&gt;</span>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <!-- <div class="item-info padd-15">
+                        <p>Birthday : <span>07-07-1997</span></p>
+                      </div>
+                      <div class="item-info padd-15">
+                        <p>Age : <span>00</span></p>
+                      </div> -->
+                      <div class="item-info padd-15">
+                        <p>Website : <span>www.ttt.com</span></p>
+                      </div>
+                      <div class="item-info padd-15">
+                        <p>Email : <span>mdhabiburrb@gmail.com</span></p>
+                      </div>
+                      <div class="item-info padd-15">
+                        <p>Degree : <span>BSC in CSE</span></p>
+                      </div>
+                      <div class="item-info padd-15">
+                        <p>Phone : <span>+880 1994688976</span></p>
+                      </div>
+                      <div class="item-info padd-15">
+                        <p>City : <span>Dhaka</span></p>
+                      </div>
+                      <div class="item-info padd-15">
+                        <p>Freelance : <span>Available</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <!-- <a href="#" class="btn-border ">Download CV</a> -->
+
+                        <a href="./asset/files/CV-Bappy.pdf" target="_blank" class="btn-border">Download CV</a>
+                        <a href="#contact" class="btn-border">Hire Me</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <!-- <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>CSS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 76%"></div>
+                          <div class="skill-percent">76%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>JS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 86%"></div>
+                          <div class="skill-percent">86%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 90%"></div>
+                          <div class="skill-percent">90%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>ReactJS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 78%"></div>
+                          <div class="skill-percent">78%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>NextJS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 70%"></div>
+                          <div class="skill-percent">70%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Bootstrap</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 80%"></div>
+                          <div class="skill-percent">80%</div>
+                        </div>
+                      </div>
+                    </div> -->
+                    <div class="row">
+                      <div class="skill-title padd-15">                        
+                        <div class="d-flex-column">
+                            <span class="html-code">&lt;h4&gt;</span>
+                            <h4 class="v-line-h">Few technologies I’ve been working with recently:</h4>
+                            <span class="html-code">&lt;/h4&gt;</span>                          
+                        </div>
+                      </div>
+                      <div class="skill-body padd-15">
+                        <div class="single-skill">
+                          <span class="icon">
+                            ♦</span>HTML
+                        </div>
+                        <div class="single-skill">
+                          <span class="icon">
+                            ♦</span>CSS
+                        </div>
+                        <div class="single-skill">
+                          <span class="icon">
+                            ♦</span>SASS
+                        </div>
+                        <div class="single-skill">
+                          <span class="icon">
+                            ♦</span>JavaScript
+                        </div>
+                        <div class="single-skill">
+                          <span class="icon">
+                            ♦</span>TypeScript
+                        </div>
+                        <div class="single-skill">
+                          <span class="icon">
+                            ♦</span>React-Redux
+                        </div>
+                        <div class="single-skill">
+                          <span class="icon">
+                            ♦</span>ReactJs
+                        </div>
+                        <div class="single-skill">
+                          <span class="icon">
+                            ♦</span>NextJs
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                      <div class="d-flex-column">
+                        <span class="html-code">&lt;h3&gt;</span>
+                        <h3 class="title v-line-h">Education</h3>
+                        <span class="html-code">&lt;/h3&gt;</span>  
+                      </div>
+                    
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2017 - 2020
+                            </h3>
+                            <h4 class="timeline-title">
+                              <span class="html-code">&lt;h4&gt;</span>
+                              <span class="v-line-h">B.Sc. in Computer Science and Engineering</span>
+                              <span class="html-code">&lt;/h4&gt;</span>
+                            </h4>
+                            <div class="d-flex-column">
+                              <span class="html-code">&lt;p&gt;</span>
+                              <p class="timeline-text v-line-p">
+                                <i class="fa fa-university" aria-hidden="true"></i> International University of Business Agriculture and Technology
+                              </p>
+                              <span class="html-code">&lt;/p&gt;</span>
+                            </div>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2013 - 2017
+                            </h3>
+                            <h4 class="timeline-title">
+                              <span class="html-code">&lt;h4&gt;</span>
+                              <span class="v-line-h">Higher Secondary School Certificate</span>
+                              <span class="html-code">&lt;/h4&gt;</span>
+                            </h4>
+                            <div class="d-flex-column">
+                              <span class="html-code">&lt;p&gt;</span>
+                              <p class="timeline-text v-line-p">
+                                Dr. Afiluddin Degree College, Jashore, Bangladesh
+                              </p>
+                              <span class="html-code">&lt;/p&gt;</span>
+                            </div>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2013 - 2015
+                            </h3>
+                            <h4 class="timeline-title">
+                              <span class="html-code">&lt;h4&gt;</span>
+                              <span class="v-line-h">Secondary School Certificate</span>
+                              <span class="html-code">&lt;/h4&gt;</span>
+                            </h4>
+                            <div class="d-flex-column">
+                              <span class="html-code">&lt;p&gt;</span>
+                              <p class="timeline-text v-line-p">D.S.T Secondary School, Jashore, Bangladesh
+                              </p>
+                              <span class="html-code">&lt;/p&gt;</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <div class="d-flex-column">
+                      <span class="html-code">&lt;h3&gt;</span>
+                      <h3 class="title v-line-h">Experience</h3>
+                      <span class="html-code">&lt;/h3&gt;</span>  
+                    </div>
+                  
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>June 2022 - Present
+                          </h3>
+                          <h4 class="timeline-title">
+                            <span class="html-code">&lt;h4&gt;</span>
+                            <span class="v-line-h">Front-End Engineer</span>
+                            <span class="html-code">&lt;/h4&gt;</span>
+                          </h4>
+                          <div class="d-flex-column">
+                            <span class="html-code">&lt;p&gt;</span>
+                            <p class="timeline-text v-line-p">
+                              <i class="fa fa-university" aria-hidden="true"></i> SWAP BD Ltd.
+                            </p>
+                            <span class="html-code">&lt;/p&gt;</span>
+                          </div>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>May 2022 - November 2022
+                          </h3>
+                          <h4 class="timeline-title">
+                            <span class="html-code">&lt;h4&gt;</span>
+                            <span class="v-line-h">Front-End Developer</span>
+                            <span class="html-code">&lt;/h4&gt;</span>
+                          </h4>
+                          <div class="d-flex-column">
+                            <span class="html-code">&lt;p&gt;</span>
+                            <p class="timeline-text v-line-p">
+                              <i class="fa fa-university" aria-hidden="true"></i> WebX Global Ltd.
+                            </p>
+                            <span class="html-code">&lt;/p&gt;</span>
+                          </div>
+                        </div>
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>March 2021 - February 2022
+                          </h3>
+                          <h4 class="timeline-title">
+                            <span class="html-code">&lt;h4&gt;</span>
+                            <span class="v-line-h">Front-End Developer</span>
+                            <span class="html-code">&lt;/h4&gt;</span>
+                          </h4>
+                          <div class="d-flex-column">
+                            <span class="html-code">&lt;p&gt;</span>
+                            <p class="timeline-text v-line-p">
+                              <i class="fa fa-university" aria-hidden="true"></i> Shafa Care Ltd.
+                            </p>
+                            <span class="html-code">&lt;/p&gt;</span>
+                          </div>
+                          <a class="explore-more" href="./experience.html">EXPLORE MORE <i class="fa fa-arrow-down"></i> </a>
+
+                        </div>
+                        <!-- <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i>Sep 2020 - Mar 2021
+                          </h3>
+                          <h4 class="timeline-title">
+                            <span class="html-code">&lt;h4&gt;</span>
+                            <span class="v-line-h">Jr. Front-End Developer + Intern</span>
+                            <span class="html-code">&lt;/h4&gt;</span>
+                          </h4>
+                          <div class="d-flex-column">
+                            <span class="html-code">&lt;p&gt;</span>
+                            <p class="timeline-text v-line-p">
+                              <i class="fa fa-university" aria-hidden="true"></i> Halcyon
+                            </p>
+                            <span class="html-code">&lt;/p&gt;</span>
+                          </div>
+                        </div> -->
+
+                      </div>
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ==== About Section End ==== -->
+        <!-- ==== Services Section Start ==== -->
+        <section class="services section" id="services">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <div id="services-title"></div>
+              </div>
+              <div class="services-description d-flex-column">
+                <span class="html-code">&lt;h3&gt;</span>
+                <h3 class="v-line-h">I design and code beautifully simple things, and I love what I do.</h3>
+                <span class="html-code">&lt;/h3&gt;</span>
+              </div>
+            </div>
+            <div class="row">
+              <!-- ==== Services Item Start ==== -->
+              <div class="service-item padd-20">
+                <div class="service_item-inner shadow-dark-hover">
+                  <div class="card-top">
+                    <div class="icon space">
+                      <i class="fa fa-laptop-code"></i>
+                    </div>
+                    <h4 >
+                      <span class="html-code">&lt;h4&gt;</span>
+                      <span class="v-line-h">Software Development</span>
+                      <span class="html-code">&lt;/h4&gt;</span>
+                    </h4>
+                  </div>
+                  
+                  <div>
+                    <span class="html-code">&lt;p&gt;</span>
+                    <p class="v-line-p">
+                      Experienced in both functional and OOP: Java, JavaScript, TypeScript.
+                    </p>
+                    <span class="html-code">&lt;/p&gt;</span>
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Services Item End ==== -->
+              <!-- ==== Services Item Start ==== -->
+              <div class="service-item padd-20">
+                <div class="service_item-inner shadow-dark-hover">
+                  <div class="card-top">
+                    <div class="icon space">
+                      <i class="fa fa-code"></i>
+                    </div>
+                    <h4>
+                      <span class="html-code">&lt;h4&gt;</span>
+                      <span class="v-line-h">Frontend: React, NextJS</span>
+                      <span class="html-code">&lt;/h4&gt;</span>
+                    </h4>
+                  </div>
+                  
+                  <div>
+                    <span class="html-code">&lt;p&gt;</span>
+                    <p class="v-line-p">
+                      Passionate about UI/UX. Over 2 years of development experience in HTML, CSS, SASS, JavaScript, TypeScript, Redux, React and NextJs frameworks.
+                    </p>
+                    <span class="html-code">&lt;/p&gt;</span>
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Services Item End ==== -->
+              <!-- ==== Services Item Start ==== -->
+              <div class="service-item padd-20">
+                <div class="service_item-inner shadow-dark-hover">
+                  <div class="card-top">
+                    <div class="icon space">
+                      <i class="fa fa-palette"></i>
+                    </div>
+                    <h4 >
+                      <span class="html-code">&lt;h4&gt;</span>
+                      <span class="v-line-h">Backend: NodeJs</span>
+                      <span class="html-code">&lt;/h4&gt;</span>
+                  </div>
+                  
+                  <div>
+                    <span class="html-code">&lt;p&gt;</span>
+                    <p class="v-line-p">
+                      Though have not much professional experience but worked several personal project with NodeJs, Express, MongoDB.
+                    </p>
+                    <span class="html-code">&lt;/p&gt;</span>
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Services Item End ==== -->
+              <!-- ==== Services Item Start ==== -->
+              <div class="service-item padd-20">
+                <div class="service_item-inner shadow-dark-hover">
+                  <div class="card-top">
+                    <div class="icon space">
+                      <i class="fa fa-search"></i>
+                    </div>
+                    <h4 >
+                      <span class="html-code">&lt;h4&gt;</span>
+                      <span class="v-line-h">Web Design</span>
+                      <span class="html-code">&lt;/h4&gt;</span></h4>
+                  </div>
+                  
+                  <div>
+                    <span class="html-code">&lt;p&gt;</span>
+                    <p class="v-line-p">
+                      Over more than 2 years of experience in web development. Implemented 6+ interactive website using HTML, CSS, JavaScript, TypeScript with the help of JS Library.
+                    </p>
+                    <span class="html-code">&lt;/p&gt;</span>
+                  </div>
+                </div>
+              </div>
+              <!-- ==== Services Item End ==== -->
+              <!-- ==== Services Item End ==== -->
+            </div>
+          </div>
+        </section>
+        <!-- ==== Services Section End ==== -->
+        <!-- ==== Portfolio Section Start ==== -->
+        <section class="portfolio section" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <div id="portfolio-title"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="portfolio-heading padd-15">
+                <div class="d-flex-column">
+                  <span class="html-code">&lt;h2&gt;</span>
+                  <h2 class="title v-line-h">My Last Project : </h2>
+                  <span class="html-code">&lt;/h2&gt;</span>  
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-2.jpg" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+            <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-4.webp" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+            <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-4.webp" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+            <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-5.webp" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+            <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-6.webp" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+            <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-7.jpg" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+          </div>
+        </section>
+        <!-- ==== Portfolio Section End ==== -->
+        
+        <!-- ==== Portfolio Section Start ==== -->
+        <section class="portfolio section" id="gallery">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <div id="gallery-title"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="portfolio-heading padd-15">
+                <div class="d-flex-column">
+                  <span class="html-code">&lt;h2&gt;</span>
+                  <h2 class="title v-line-h">Workshop & Activities : </h2>
+                  <span class="html-code">&lt;/h2&gt;</span>  
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-2.jpg" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+            <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-4.webp" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+            <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-4.webp" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+            <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-5.webp" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+            <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-6.webp" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+            <!-- ==== Portfolio Item Start ==== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img"><img src="./asset/images/project/project-7.jpg" alt="project img"></div>
+              </div>
+            </div>
+            <!-- ==== Portfolio Item End ==== -->
+          </div>
+        </section>
+        <!-- ==== Portfolio Section End ==== -->
+        <!-- ==== Contact Section Start ==== -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <div id="contact-title"></div>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">Have You Any Question ?</h3>
+            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+              <!-- ==== Contact Info Item Start ==== -->              
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call On</h4>
+                <p>+880 1994688976</p>
+              </div>
+              <!-- ==== Contact Info Item End ==== -->               
+              <!-- ==== Contact Info Item Start ==== -->              
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Office</h4>
+                <p>Dhaka</p>
+              </div>
+              <!-- ==== Contact Info Item End ==== --> 
+              <!-- ==== Contact Info Item Start ==== -->              
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>mdhabiburrb@gmail.com</p>
+              </div>
+              <!-- ==== Contact Info Item End ==== --> 
+              <!-- ==== Contact Info Item Start ==== -->              
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Website</h4>
+                <p>www.hrbappy.me</p>
+              </div>
+              <!-- ==== Contact Info Item End ==== -->                
+            </div>
+            <h3 class="contact-title padd-15">Have You Any Question ?</h3>
+            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+            <!-- ==== Contact Form ==== -->
+            <form class="contact__form">
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group"><input type="text" class="form-control name__" placeholder="Name"></div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group"><input type="email" class="form-control email__" placeholder="Email" required></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group"><input type="text" class="form-control subject__" placeholder="Subject" required></div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group"><textarea name="" id="" class="form-control message__" placeholder="Message" required></textarea></div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <button type="submit" class="btn submit__btn">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </form>
+
+          </div>
+        </section>
+        <!-- ==== Contact Section End ==== -->
+            </div>
+      </div>
+      <!-- ==== Main Content End ==== -->
+      <!-- ==== Style Switcher Start ==== -->
+      <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+          <i class=" fas fas fa-cog fa-spin"></i>
+        </div>
+        <div class="daynight s-icon">
+          <i class="fas "></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+          <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+          <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+          <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+          <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+          <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+          <span class="color-6" onclick="setActiveStyle('color-6')"></span>
+        </div>
+      </div>
+      <!-- ==== Style Switcher End ==== -->
+    </div>
+    <!-- ==== Main Container End ==== -->
+
+    <div id="mouse-circle"></div>
+
+
+    <script>
+      const navOnClick = (Id) => {
+        const navItem = document.querySelectorAll('.nav-item');
+        for(let i = 0; i< navItem.length; i++) {
+          navItem[i].classList.remove('active')
+        }
+        const activeNav = document.getElementById(Id);
+        activeNav.classList.add('active')
+      }
+    </script>
+
+    <!-- send message -->
+    <script>
+      const form = document.querySelector('.contact__form')
+
+      const sendMessage = (e) => {
+        e.preventDefault();
+        // const name = document.querySelector('.name__'),
+        email = document.querySelector('.email__'),
+        subject = document.querySelector('.subject__'),
+        message = document.querySelector('.message__');
+        message='From Web:: '+message;
+
+        console.log('object', email.value);
+
+        Email.send({
+            SecureToken : "6671ab98-9c97-45fc-8dae-057f52d7f76d",
+            To : 'mdhabiburrb@gmail.com',
+            From : email.value,
+            Subject : subject.value,
+            Body : message.value
+        }).then(
+          message => alert(message)
+        );
+      }
+      
+      form.addEventListener('submit', sendMessage)
+
+    </script>
+
+
+		<script>
+			let circle = document.getElementById("mouse-circle");
+			const onMouseMove = (e) => {
+				circle.style.left = e.pageX + "px";
+				circle.style.top = e.pageY + "px";
+			};
+			document.addEventListener("mousemove", onMouseMove);
+		</script>
+
+    <script src="./asset/js/style-switcher.js"></script>
+    <script src="./asset/js/type-writter.js"></script>
+    <script src="./asset/js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>
