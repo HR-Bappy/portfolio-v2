@@ -1,15 +1,14 @@
 const showHideSideMenu = document.querySelector(".aside");
-showHideSideMenu.addEventListener("click", () => {
-  document.querySelector(".aside").classList.toggle("show-side-nav");
-  if (document.querySelector(".nav-icon-menu")) {
-    document.getElementById("nav-icon").classList.remove("nav-icon-menu");
-    document.getElementById("nav-icon").classList.add("nav-icon-close");
-  } else {    
-    document.getElementById("nav-icon").classList.remove('nav-icon-close')
-    document.getElementById("nav-icon").classList.add('nav-icon-menu')
-  }
+showHideSideMenu?.addEventListener("click", () => {
+	document.querySelector(".aside").classList.toggle("show-side-nav");
+	if (document.querySelector(".nav-icon-menu")) {
+		document.getElementById("nav-icon").classList.remove("nav-icon-menu");
+		document.getElementById("nav-icon").classList.add("nav-icon-close");
+	} else {
+		document.getElementById("nav-icon").classList.remove("nav-icon-close");
+		document.getElementById("nav-icon").classList.add("nav-icon-menu");
+	}
 });
-
 
 var defaultColor = "#302e4d";
 const body = document.querySelector(".dark");
@@ -53,34 +52,41 @@ const splictChar = (text) => {
 	return temp;
 };
 const init = () => {
-	document.getElementById("about-me-title").innerHTML = `<h2>${splictChar(
-		"About Me"
-	)}</h2>`;
-	document.getElementById("services-title").innerHTML = `<h2>${splictChar(
-		"Services"
-	)}</h2>`;
-	document.getElementById("portfolio-title").innerHTML = `<h2>${splictChar(
-		"Portfolio"
-	)}</h2>`;
-	document.getElementById("contact-title").innerHTML = `<h2>${splictChar(
-		"Contact"
-	)}</h2>`;
-	document.getElementById("gallery-title").innerHTML = `<h2>${splictChar(
-		"Gallery"
-	)}</h2>`;
+	if (document.getElementById("about-me-title"))
+		document.getElementById("about-me-title").innerHTML = `<h2>${splictChar(
+			"About Me"
+		)}</h2>`;
+	if (document.getElementById("services-title"))
+		document.getElementById("services-title").innerHTML = `<h2>${splictChar(
+			"Services"
+		)}</h2>`;
+	if (document.getElementById("portfolio-title"))
+		document.getElementById("portfolio-title").innerHTML = `<h2>${splictChar(
+			"Portfolio"
+		)}</h2>`;
+	if (document.getElementById("contact-title"))
+		document.getElementById("contact-title").innerHTML = `<h2>${splictChar(
+			"Contact"
+		)}</h2>`;
+	if (document.getElementById("gallery-title"))
+		document.getElementById("gallery-title").innerHTML = `<h2>${splictChar(
+			"Gallery"
+		)}</h2>`;
+	if (document.getElementById("experience-title"))
+		document.getElementById("experience-title").innerHTML = `<h2>${splictChar(
+			"HR Bappy"
+		)}</h2>`;
 };
-
-
 
 const setInitialVal = () => {
 	let pathName = window.location.href;
 	const temp = pathName.split("#");
-	if (temp.length >= 2 && temp[1] && temp[1] != "") {
+	if (temp?.length >= 2 && temp[1] && temp[1] != "") {
 		const navActive = document.getElementById(temp[1] + "-menu");
-		navActive.classList.add("active");
+		navActive?.classList.add("active");
 	} else {
 		const navActive = document.getElementById("home-menu");
-		navActive.classList.add("active");
+		navActive?.classList.add("active");
 	}
 };
 
